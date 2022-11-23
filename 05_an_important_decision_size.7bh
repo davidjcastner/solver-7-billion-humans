@@ -2,17 +2,12 @@
 -- 5: An Important Decision --
 
 if e == datacube:
-    step e
-    pickup c
-    a:
-    step e
-    jump a
-else:
-    step w
-    pickup c
-    b:
-    step w
-    jump b
+    go_east:
+        step e
+        jump go_east
 endif
+go_west:
+    step w
+    jump go_west
 
 

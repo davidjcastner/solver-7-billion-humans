@@ -1,0 +1,41 @@
+-- 7 Billion Humans (2235) --
+-- 10: Emergency Escapades --
+
+a:
+step w
+if c == 1:
+	jump b
+endif
+jump a
+b:
+c:
+if w != hole:
+	jump d
+endif
+if sw != hole and
+ s != wall:
+	step s
+else:
+	step n
+endif
+jump c
+d:
+step w
+step w
+step s
+step s
+step s
+step w
+step w
+step w
+step w
+step w
+step n
+step n
+step n
+step n
+step n
+step n
+step w
+
+
