@@ -1,0 +1,23 @@
+-- 7 Billion Humans (2235) --
+-- 16: Little Exterminator 2 --
+
+step s
+step s
+step s
+a:
+step s
+if c != datacube:
+	jump a
+endif
+pickup c
+step e
+step e
+step e
+b:
+step e
+if s == shredder:
+	giveto s
+endif
+jump b
+
+
