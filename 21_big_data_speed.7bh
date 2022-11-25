@@ -1,0 +1,38 @@
+-- 7 Billion Humans (2235) --
+-- 21: Big Data --
+
+step s
+if s == printer:
+	a:
+	takefrom s
+	b:
+	if myitem >= 50:
+		c:
+		if c != datacube:
+			drop
+			jump a
+		endif
+		jump c
+	else:
+		giveto sw
+		takefrom se
+		jump b
+	endif
+else:
+	d:
+	if s == datacube:
+		pickup s
+	endif
+	if n == worker and
+	 myitem >= 50:
+		giveto n
+	endif
+	if n != worker and
+	 myitem >= 50:
+		step n
+		end
+	endif
+	jump d
+endif
+
+
