@@ -1,0 +1,20 @@
+-- 7 Billion Humans (2235) --
+-- 22: Number Royale --
+
+step s
+pickup c
+step s
+a:
+if myitem < e or
+ myitem < w or
+ s != hole:
+	step s
+endif
+b:
+if w == nothing:
+	step w
+	jump b
+endif
+jump a
+
+
